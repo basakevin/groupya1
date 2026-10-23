@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scenario 3: Adding Tables</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        table {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="index.html">Course Index</a> | <a href="SCENARIO2.HTML">Previous: Scenario 2</a> | <a href="SCENARIO4.HTML">Next: Scenario 4</a></p>
+
+    <h1>Scenario 3: Adding Tables</h1>
+    <p>In Scenario 2 we made student profiles. In this scenario, we use tables to arrange information.</p>
+
+    <h2>1. Student Information Table</h2>
+    <table border="1" cellpadding="5" cellspacing="5">
+        <tr>
+            <th>Name</th>
+            <th>Student ID</th>
+            <th>Department</th>
+            <th>Semester</th>
+        </tr>
+        <tr>
+            <td>ISHIMWE AUDREY</td>
+            <td>BBICTE252600758</td>
+            <td>Information Technology</td>
+            <td>Sem 2</td>
+        </tr>
+        <tr>
+            <td>ALAIN MELVIN</td>
+            <td>BBICTE252600225</td>
+            <td>Information Technology</td>
+            <td>Sem 2</td>
+        </tr>
+        <tr>
+            <td>NSHUTI BASABOSE KEVIN</td>
+            <td>BBICTE252600757</td>
+            <td>Information Technology</td>
+            <td>Sem 2</td>
+        </tr>
+
+        <tr>
+            <td>KAMANZI JACKSON</td>
+            <td>BBICTE252601442</td>
+            <td>Information Technology</td>
+            <td>Sem 2</td>
+        </tr>
+    </table>
+
+    <h2>2. Table Headings</h2>
+    <p>The <code>&lt;th&gt;</code> elements make the column headings.</p>
+    <table border="1" cellpadding="5" cellspacing="5">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>Ramesh Raman</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>Shabbir Hussein</td>
+            <td>7000</td>
+        </tr>
+    </table>
+
+    <h2>3. Using Rowspan and Colspan</h2>
+    <p><code>rowspan</code> joins rows. <code>colspan</code> joins columns.</p>
+    <table border="1">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+
+    <h2>4. Table Background and Border</h2>
+    <p>This example uses a yellow background and green border.</p>
+    <table border="1" bordercolor="green" bgcolor="yellow">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+
+    <h2>5. Table Width and Height</h2>
+    <table border="1" width="400" height="150">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        <tr>
+            <td>Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 1</td>
+            <td>Row 2 Cell 2</td>
+        </tr>
+    </table>
+
+    <h2>6. Table Caption</h2>
+    <table border="1" width="100%">
+        <caption>This is the caption</caption>
+        <tr>
+            <td>Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+        </tr>
+    </table>
+
+    <p><a href="SCENARIO2.HTML">Go back to Scenario 2</a> | <a href="index.html">Course Index</a></p>
+</body>
+</html>
