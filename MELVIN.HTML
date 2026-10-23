@@ -14,14 +14,46 @@
             height: 160px;
             object-fit: cover;
         }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
     <p><a href="SCENARIO2.HTML">Back to Student Profiles</a></p>
     <h1>ALAIN MELVIN</h1>
-    <img src="1.jpeg" alt="Student profile of Alain Melvin">
-    <p>Registration Number: BBICTE252600225</p>
-    <p>Department: Information Technology</p>
-    <p>Semester: Sem 2</p>
+    <table>
+        <tr>
+            <th>Profile Item</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Photo</td>
+            <td><img src="1.jpeg" alt="Student profile of Alain Melvin"></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>ALAIN MELVIN</td>
+        </tr>
+        <tr>
+            <td>Registration Number</td>
+            <td>BBICTE252600225</td>
+        </tr>
+        <tr>
+            <td>Department</td>
+            <td>Information Technology</td>
+        </tr>
+        <tr>
+            <td>Semester</td>
+            <td>Sem 2</td>
+        </tr>
+    </table>
 </body>
 </html>
